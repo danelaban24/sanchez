@@ -6,7 +6,8 @@ body {
 .top-container {
     background-color: black;
     height: 22vh;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
 .social-top {
@@ -17,12 +18,11 @@ body {
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%
-}
-
+} */
 /* TOP SECTION */
 
 /* SOCIAL MEDIA ICON */
@@ -102,3 +102,28 @@ body {
 }
 
 /* WELCOME SECTION */
+
+/* CENTER IMAGE */
+.main-image {
+    padding-top: 22vh;
+    width: 100%;
+}
+
+/* CENTER IMAGE */
+
+/* FOOTER */
+.footer {
+    background-color: rgb(0, 88, 30);
+    margin: 0;
+    height: 7vh;
+    color: white;
+}
+
+.location {
+    left: 70%;
+    font-size: 20px;
+    padding: 1.55vh;
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
