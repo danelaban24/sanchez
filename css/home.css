@@ -1,0 +1,104 @@
+body {
+    letter-spacing: 1px;
+}
+
+/* TOP SECTION */
+.top-container {
+    background-color: black;
+    height: 22vh;
+    position: sticky;
+}
+
+.social-top {
+    background-color: rgb(0, 88, 30);
+    /* margin-bottom: 25px; */
+    padding-left: 5vh;
+    height: 6vh;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* TOP SECTION */
+
+/* SOCIAL MEDIA ICON */
+.instagram {
+    font-size: 24px;
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tiktok {
+    color: #111111;
+    font-size: 24px;
+    text-decoration: none;
+    filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
+}
+
+.facebook {
+    font-size: 24px;
+    text-decoration: none;
+    color: #1778F2;
+}
+
+.twitter {
+    font-size: 24px;
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+.fab {
+    height: 100%;
+    margin-left: 10px;
+    padding-top: 1.5vh;
+}
+
+/* SOCIAL MEDIA ICON */
+
+/* WELCOME SECTION */
+.welcome-section {
+    background-color: beige;
+    margin: auto;
+    margin-top: 5vh;
+    margin-left: 45vh;
+    text-align: center;
+    border-radius: 80px;
+    width: 55.33%;
+    height: 8vh;
+}
+
+.logo-image {
+    width: 20vh;
+    height: 12.33vh;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 24vh;
+    margin-top: 2vh;
+}
+
+.general {
+    position: relative;
+    top: 2.5vh;
+    text-decoration: none;
+    margin: 0 8vh;
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+}
+
+.general:hover {
+    color: #111111;
+}
+
+/* WELCOME SECTION */
