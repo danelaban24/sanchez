@@ -10,6 +10,8 @@ body,
 html {
     letter-spacing: 1px;
     height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 /* TOP SECTION */
@@ -34,6 +36,7 @@ html {
     top: 0;
     width: 100%
 } */
+
 /* TOP SECTION */
 
 /* SOCIAL MEDIA ICON */
@@ -115,6 +118,52 @@ html {
 }
 
 /* WELCOME SECTION */
+
+/* CATERING SECTION */
+.catering-section {
+    padding-top: 13%;
+    padding-bottom: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.catering-info {
+    font-family: 'EB Garamond', serif;
+    font-size: 75px;
+    top: 23%;
+    left: 45%;
+}
+/* CATERING SECTION */
+
+/* CATERING PHOTO SECTION */
+.mini-buffet-photo {
+    width: 100%;
+    height: 80%;
+}
+
+.events-at {
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    width: 500px;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: -30.3%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    padding-top: 5%;
+    font-family: 'Tangerine', cursive;
+    font-weight: bolder;
+}
+
+.box-two {
+    background-color: rgba(116, 7, 7, 0.589);
+    color: #111111;
+    width: 500px;
+    height: 500px;
+    margin-left: 19.75%;
+    text-align: center;
+}
 
 /* FOOTER */
 .footer {
